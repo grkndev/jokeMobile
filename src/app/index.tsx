@@ -108,7 +108,7 @@ const profiles = [
   },
 ];
 
-export default function tinder() {
+export default function joke() {
   const [users, setUsers] = useState(profiles);
   const activeIndex = useSharedValue(0);
   const [index, setIndex] = useState(0);

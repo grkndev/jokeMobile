@@ -129,35 +129,7 @@ export default function TinderCard({
           </View>
         </Animated.View>
       </GestureDetector>
-      {/* <View style={{ position: "absolute", bottom: 20 }}>
-        <Link
-          href={user.xLink}
-          style={{
-            backgroundColor: "#000",
-            // paddingHorizontal: 50,
-            width: 270,
-            justifyContent: "center",
-            alignItems:'center',
-            textAlign:'center',
-            paddingVertical: 10,
-            borderRadius: 5,
-          }}
-          // onPress={() => (activeIndex.value = activeIndex.value + 1)}
-        >
-          <Text
-            style={{
-              textAlign: "center",
-              alignSelf:'center',
-              color: "white",
-              
-              fontFamily: "InterBold",
-              fontSize: 24,
-            }}
-          >
-            View on X
-          </Text>
-        </Link>
-      </View> */}
+     
     </>
   );
 }

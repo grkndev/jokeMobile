@@ -51,7 +51,10 @@ const RootLayout = () => {
   return (
     <GestureHandlerRootView style={{ flex: 1 }}>
       <Stack>
-        <Stack.Screen name="index" options={{ title: "DEVember" }} />
+        <Stack.Screen
+          name="index"
+          options={{ title: "Elfs Joke App", headerShown: false }}
+        />
       </Stack>
     </GestureHandlerRootView>
   );
